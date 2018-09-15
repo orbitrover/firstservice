@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update node_type="content_page" unload_date="2018-09-15 12:02:10">
+    <sys_portal action="delete_multiple" query="page=b20d6ce9dba02300b3db8a18489619cf">
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone2</dropzone>
+                <offset>0</offset>
+                <page display_value="Home Page">b20d6ce9dba02300b3db8a18489619cf</page>
+                <summary/>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2018-09-14 10:24:54</sys_created_on>
+                <sys_id>104fa06ddba02300b3db8a1848961945</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2018-09-14 10:24:54</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>type</name>
+                        <portal_section display_value="Created 2018-09-14 03:24:54">104fa06ddba02300b3db8a1848961945</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2018-09-14 10:24:54</sys_created_on>
+                        <sys_id>184fa06ddba02300b3db8a1848961946</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2018-09-14 10:24:54</sys_updated_on>
+                        <value>content_block_menu</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2018-09-14 03:24:54">104fa06ddba02300b3db8a1848961945</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2018-09-14 10:24:54</sys_created_on>
+                        <sys_id>1c4fa06ddba02300b3db8a1848961946</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2018-09-14 10:24:54</sys_updated_on>
+                        <value>b20d6ce9dba02300b3db8a18489619cf</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2018-09-14 03:24:54">104fa06ddba02300b3db8a1848961945</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2018-09-14 10:24:54</sys_created_on>
+                        <sys_id>904fa06ddba02300b3db8a1848961946</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2018-09-14 10:24:54</sys_updated_on>
+                        <value>Manage Menu</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2018-09-14 03:24:54">104fa06ddba02300b3db8a1848961945</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2018-09-14 10:24:54</sys_created_on>
+                        <sys_id>9c4fa06ddba02300b3db8a1848961945</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2018-09-14 10:24:54</sys_updated_on>
+                        <value>com.glide.cms.RenderBlock</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2018-09-14 03:24:54">104fa06ddba02300b3db8a1848961945</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2018-09-14 10:24:54</sys_created_on>
+                        <sys_id>d04fa06ddba02300b3db8a1848961945</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2018-09-14 10:24:54</sys_updated_on>
+                        <value>32c07253ef331000914304167b225670</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal>
+    <content_page action="INSERT_OR_UPDATE">
+        <content_site display_value="FirstService">4cfca4e9dba02300b3db8a184896190d</content_site>
+        <content_theme display_value="Administration Theme - Charcoal">81140274ef331000914304167b2256fb</content_theme>
+        <description>First Service Home Page</description>
+        <frame_buster>false</frame_buster>
+        <layout display_value="layout_ Admin Home (Enterprise Edition)">7a26b3b5d7121100b9a5c7400e610372</layout>
+        <model_id/>
+        <model_table/>
+        <name>fs.Index</name>
+        <order/>
+        <parent_page/>
+        <read_roles/>
+        <roles/>
+        <selectable>true</selectable>
+        <sys_class_name>content_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-14 10:16:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b20d6ce9dba02300b3db8a18489619cf</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>fs.Index</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="FirstService" source="x_274995_firstserv">30dc1ceddb602300b3db8a1848961998</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FirstService">30dc1ceddb602300b3db8a1848961998</sys_scope>
+        <sys_update_name>content_page_b20d6ce9dba02300b3db8a18489619cf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-14 10:24:54</sys_updated_on>
+        <title>Home Page</title>
+        <url_suffix>index</url_suffix>
+        <user/>
+        <view/>
+        <workflow_state>published</workflow_state>
+    </content_page>
+</record_update>

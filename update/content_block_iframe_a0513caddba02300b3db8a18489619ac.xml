@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="content_block_iframe">
+    <content_block_iframe action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <condition/>
+        <conditional>false</conditional>
+        <frame/>
+        <frame_name>fs_tblemployee</frame_name>
+        <height>600</height>
+        <logged_on>false</logged_on>
+        <name>fs_tblEmployee</name>
+        <sizing>expand</sizing>
+        <sys_class_name>content_block_iframe</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-14 10:35:07</sys_created_on>
+        <sys_id>a0513caddba02300b3db8a18489619ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>fs_tblEmployee</sys_name>
+        <sys_package display_value="FirstService" source="x_274995_firstserv">30dc1ceddb602300b3db8a1848961998</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FirstService">30dc1ceddb602300b3db8a1848961998</sys_scope>
+        <sys_update_name>content_block_iframe_a0513caddba02300b3db8a18489619ac</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-14 10:35:07</sys_updated_on>
+        <url>https://dev66788.service-now.com/$studio.do?sysparm_transaction_scope=30dc1ceddb602300b3db8a1848961998&amp;sysparm_nostack=true</url>
+        <width>400</width>
+    </content_block_iframe>
+</record_update>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update node_type="content_page" unload_date="2018-09-15 12:02:10">
+    <sys_portal action="delete_multiple" query="page=b45d60e9dba02300b3db8a184896193f"/>
+    <content_page action="INSERT_OR_UPDATE">
+        <content_site display_value="FirstService">4cfca4e9dba02300b3db8a184896190d</content_site>
+        <content_theme display_value="Administration Theme - Charcoal">81140274ef331000914304167b2256fb</content_theme>
+        <description/>
+        <frame_buster>false</frame_buster>
+        <layout display_value="layout_ Admin Home (Enterprise Edition)">7a26b3b5d7121100b9a5c7400e610372</layout>
+        <model_id/>
+        <model_table/>
+        <name>fs.Search</name>
+        <order/>
+        <parent_page/>
+        <read_roles/>
+        <roles/>
+        <selectable>true</selectable>
+        <sys_class_name>content_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-14 10:17:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b45d60e9dba02300b3db8a184896193f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>fs.Search</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="FirstService" source="x_274995_firstserv">30dc1ceddb602300b3db8a1848961998</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FirstService">30dc1ceddb602300b3db8a1848961998</sys_scope>
+        <sys_update_name>content_page_b45d60e9dba02300b3db8a184896193f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-14 10:21:11</sys_updated_on>
+        <title>Search Page</title>
+        <url_suffix>search</url_suffix>
+        <user/>
+        <view/>
+        <workflow_state>published</workflow_state>
+    </content_page>
+</record_update>

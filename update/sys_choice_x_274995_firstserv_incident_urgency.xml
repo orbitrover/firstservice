@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="urgency" table="x_274995_firstserv_incident" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>urgency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1-High</label>
+            <language>en</language>
+            <name>x_274995_firstserv_incident</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-15 05:18:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>59a2fcf1dbe82300b3db8a1848961924</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-15 05:18:35</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>urgency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2-Medium</label>
+            <language>en</language>
+            <name>x_274995_firstserv_incident</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-15 05:18:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e4c2bcf1dbe82300b3db8a18489619c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-15 05:18:52</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>urgency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>3-Low</label>
+            <language>en</language>
+            <name>x_274995_firstserv_incident</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-15 05:19:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c8d2f8f1dbe82300b3db8a184896199c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-15 05:19:05</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>urgency</element>
+            <name>x_274995_firstserv_incident</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-15 05:17:46</sys_created_on>
+            <sys_id>9b82f8b1dbe82300b3db8a1848961911</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>urgency</sys_name>
+            <sys_package display_value="FirstService" source="x_274995_firstserv">30dc1ceddb602300b3db8a1848961998</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="FirstService">30dc1ceddb602300b3db8a1848961998</sys_scope>
+            <sys_update_name>sys_choice_x_274995_firstserv_incident_urgency</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-15 05:17:46</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

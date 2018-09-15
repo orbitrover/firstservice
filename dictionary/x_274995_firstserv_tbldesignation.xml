@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="tblDesignation" max_length="40" name="x_274995_firstserv_tbldesignation" type="collection">
+        <element label="DesignationId" max_length="40" name="designationid" type="integer"/>
+        <element display="true" label="DesignationName" max_length="40" name="designationname" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+    </element>
+</database>

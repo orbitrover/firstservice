@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="tblVisitor" max_length="40" name="x_274995_firstserv_tblvisitor" type="collection">
+        <element label="Are you parked on-site?" max_length="40" name="are_you_parked_on_site" type="boolean"/>
+        <element label="Company" max_length="40" name="company" type="string"/>
+        <element label="FirstName" max_length="40" name="firstname" type="string"/>
+        <element label="LastName" max_length="40" name="lastname" type="string"/>
+        <element label="Licence Plate Number" max_length="40" name="licence_plate_number" type="string"/>
+        <element default="true" label="On-Site" max_length="40" name="on_site" type="boolean"/>
+        <element display="true" label="Picture" max_length="40" name="picture" type="user_image"/>
+        <element label="Who are you here to see?" max_length="32" name="who_are_you_here_to_see" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="who_are_you_here_to_see"/>
+        </index>
+    </element>
+</database>

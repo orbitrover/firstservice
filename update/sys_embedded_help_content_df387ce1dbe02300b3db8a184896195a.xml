@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_embedded_help_content">
+    <sys_embedded_help_content action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>mid-server</category>
+        <content><![CDATA[ <h1 class="title topictitle1">ECC queue</h1>  <div class="body conbody">  <p class="p"><span class="ph">The External Communication Channel (ECC) Queue is a      connection point between an instance and other systems that integrate with it, most commonly a      MID Server.</span>  </p>  <p class="p">The ECC queue contains records that are created during all stages        of discovery. Each record is essentially a message from the instance and another system,        classified as <span class="ph uicontrol">output</span>, or a message from the external system to the        instance, classified as <span class="ph uicontrol">input</span>. ECC queue records provide you with a        connected flow of probe and sensor activity, as well as the actual XML payload that is sent        to or from an instance.</p> </div> <div class="related-links"><div class="relinfo"><div class="reltitle">Related information<br /><div><a class="link" href="https://docs.servicenow.com/?context&#61;CSHelp:ManageECCQueueContent&amp;version&#61;kingston" target="_blank">Manage ECC Queue content for a MID Server</a></div><div><a class="link" href="https://docs.servicenow.com/?context&#61;CSHelp:MIDServerECCQueue&amp;version&#61;kingston" target="_blank">The MID Server ECC queue</a></div><div><a class="link" href="https://docs.servicenow.com/?context&#61;CSHelp:DiscoveryECCQueue&amp;version&#61;kingston" target="_blank">The ECC queue for Discovery</a></div></div></div></div>]]></content>
+        <last_sync>2018-09-14 11:04:09</last_sync>
+        <modifier>normal</modifier>
+        <name>ecc_queue_list-normal</name>
+        <page>ecc_queue_list</page>
+        <product>1</product>
+        <qualifier/>
+        <role/>
+        <role_order>1000</role_order>
+        <snc_created>true</snc_created>
+        <sys_class_name>sys_embedded_help_content</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2018-09-14 11:04:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>df387ce1dbe02300b3db8a184896195a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ecc_queue_list-normal</sys_name>
+        <sys_package display_value="FirstService" source="x_274995_firstserv">30dc1ceddb602300b3db8a1848961998</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="FirstService">30dc1ceddb602300b3db8a1848961998</sys_scope>
+        <sys_update_name>sys_embedded_help_content_df387ce1dbe02300b3db8a184896195a</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-09-14 11:04:09</sys_updated_on>
+        <version>k</version>
+    </sys_embedded_help_content>
+    <sys_translated_text action="delete_multiple" query="documentkey=df387ce1dbe02300b3db8a184896195a"/>
+</record_update>

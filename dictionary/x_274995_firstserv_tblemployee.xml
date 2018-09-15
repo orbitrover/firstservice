@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="tblEmployee" max_length="40" name="x_274995_firstserv_tblemployee" type="collection">
+        <element choice="2" display="true" label="Department" mandatory="true" max_length="100" name="department" reference="x_274995_firstserv_tbldepartment" type="reference">
+            <choice/>
+        </element>
+        <element choice="2" label="Designation" mandatory="true" max_length="32" name="designation" reference="x_274995_firstserv_tbldesignation" type="reference">
+            <choice/>
+        </element>
+        <element label="FirstName" max_length="40" name="firstname" type="string"/>
+        <element choice="1" default="Male" label="Gender" mandatory="true" max_length="40" name="gender" type="choice">
+            <choice>
+                <element hint="Entel Male if Gender is Male" label="Male" sequence="1" value="Male"/>
+                <element hint="Entel Female if Gender is Female" label="Female" sequence="2" value="Female"/>
+            </choice>
+        </element>
+        <element label="Id" max_length="40" name="id" type="integer"/>
+        <element label="LastName" max_length="40" name="lastname" type="string"/>
+        <element label="Mobile" max_length="40" name="mobile" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <index name="index">
+            <element name="designation"/>
+        </index>
+    </element>
+</database>

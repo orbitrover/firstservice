@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Incident" max_length="40" name="x_274995_firstserv_incident" type="collection">
+        <element label="Assigned To" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element label="Assignment Group" max_length="32" name="assignment_group" reference="sys_user_group" type="reference"/>
+        <element label="Caller" max_length="32" name="caller" reference="sys_user" type="reference"/>
+        <element choice="1" label="Category" max_length="40" name="category" type="choice">
+            <choice>
+                <element label="1-Category" value="1"/>
+                <element label="2-Category" value="2"/>
+            </choice>
+        </element>
+        <element choice="1" label="Contact Type" max_length="40" name="contact_type" type="choice">
+            <choice>
+                <element label="Email" value="3"/>
+                <element label="Mobile" value="2"/>
+                <element label="Phone" value="1"/>
+            </choice>
+        </element>
+        <element choice="1" label="Impact" max_length="40" name="impact" type="choice">
+            <choice>
+                <element label="1-High" value="1"/>
+                <element label="2-Medium" value="2"/>
+                <element label="3-Low" value="3"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="Priority" max_length="40" name="priority" type="choice">
+            <choice>
+                <element label="1-High" value="1"/>
+                <element label="2-Medium" value="2"/>
+                <element label="3-Low" value="3"/>
+            </choice>
+        </element>
+        <element display="true" label="Short Description" max_length="500" name="short_description" type="string"/>
+        <element choice="1" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element label="Cancelled" value="3"/>
+                <element label="Completed" value="4"/>
+                <element label="In Pending" value="2"/>
+                <element label="In Progress" value="1"/>
+            </choice>
+        </element>
+        <element choice="1" label="SubCategory" max_length="40" name="subcategory" type="choice">
+            <choice>
+                <element label="1-Subcategory1" value="1"/>
+                <element label="1-Subcategory2" value="2"/>
+                <element label="2-Subcategory1" value="3"/>
+                <element label="2-Subcategory2" value="4"/>
+            </choice>
+        </element>
+        <element choice="1" label="Urgency" max_length="40" name="urgency" type="choice">
+            <choice>
+                <element label="1-High" value="1"/>
+                <element label="2-Medium" value="2"/>
+                <element label="3-Low" value="3"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="caller"/>
+        </index>
+        <index name="index2">
+            <element name="assignment_group"/>
+        </index>
+        <index name="index3">
+            <element name="assigned_to"/>
+        </index>
+    </element>
+</database>
